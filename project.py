@@ -53,14 +53,14 @@ with tab5:
  st.subheader("Hunter x Hunter (stylized as HUNTERxHUNTER and pronounced [3]) is a Japanese manga series written and illustrated by Yoshihiro Togashi. It has been serialized in Shueisha's shōnen manga magazine Weekly Shōnen Jump since March 1998, although the manga has frequently gone on extended hiatuses since 2006. Its chapters have been collected in 37 tankōbon volumes as of November 2022. The story focuses on a young boy named Gon Freecss who discovers that his father, who left him at a young age, is actually a world-renowned Hunter, a licensed professional who specializes in fantastical pursuits such as locating rare or unidentified animal species, treasure hunting, surveying unexplored enclaves, or hunting down lawless individuals. Gon departs on a journey to become a Hunter and eventually find his father. Along the way, Gon meets various other Hunters and encounters the paranormal.")
  st.image("hxh.jpg",width =500 )   
 
-be = st.radio(
+ben = st.radio(
     "So are you interested in amines now ?",
     ('Yeah of course', 'No not that much interested'))
 
 if be == 'Yeah really i want to watch anime':
     st.write('wow great')
 else:
-    st.write('fuckkkkk')
+    st.write('okkk')
 
 st.subheader("uchiha clan")
 st.write("*The Uchiha Clan (うちは一族, Uchiha Ichizoku) is one of the four noble clans of Konohagakure,[1] reputed to be the village's strongest because of their Sharingan and natural battle prowess.[2] After helping found Konoha decades ago, the Uchiha grew increasingly isolated from the village's affairs, culminating in most of their deaths during the Uchiha Clan Downfall. Few Uchiha now survive into the present day.*")
