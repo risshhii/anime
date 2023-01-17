@@ -58,9 +58,9 @@ be = st.radio(
     ('Yeah of course', 'No not that much interested'))
 
 if be == 'Yeah really i want to watch anime':
-    st.write('great')
+    st.write('wow great')
 else:
-    st.write('okayy')
+    st.write('fuckkkkk')
 
 st.subheader("uchiha clan")
 st.write("*The Uchiha Clan (うちは一族, Uchiha Ichizoku) is one of the four noble clans of Konohagakure,[1] reputed to be the village's strongest because of their Sharingan and natural battle prowess.[2] After helping found Konoha decades ago, the Uchiha grew increasingly isolated from the village's affairs, culminating in most of their deaths during the Uchiha Clan Downfall. Few Uchiha now survive into the present day.*")
