@@ -53,7 +53,7 @@ with tab5:
  st.subheader("Hunter x Hunter (stylized as HUNTERxHUNTER and pronounced [3]) is a Japanese manga series written and illustrated by Yoshihiro Togashi. It has been serialized in Shueisha's shōnen manga magazine Weekly Shōnen Jump since March 1998, although the manga has frequently gone on extended hiatuses since 2006. Its chapters have been collected in 37 tankōbon volumes as of November 2022. The story focuses on a young boy named Gon Freecss who discovers that his father, who left him at a young age, is actually a world-renowned Hunter, a licensed professional who specializes in fantastical pursuits such as locating rare or unidentified animal species, treasure hunting, surveying unexplored enclaves, or hunting down lawless individuals. Gon departs on a journey to become a Hunter and eventually find his father. Along the way, Gon meets various other Hunters and encounters the paranormal.")
  st.image("hxh.jpg",width =500 )   
 
-ben = st.radio(
+be = st.radio(
     "So are you interested in amines now ?",
     ('Yeah of course', 'No not that much interested'))
 
