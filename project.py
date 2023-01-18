@@ -74,7 +74,7 @@ op = st.selectbox('So do you wanna be a part of this ?',
 st.subheader("Why billions of people love anime?")
 st.write("*There's a reason why people love Itachi — the man built up to be this imposing villain throughout Naruto is revealed to be a pragmatic individual who culled his clan for the greater good and always loved his brother, no matter what.*")
 if st.button("See it!"):
-    st.image("uchiha-itachi.jpg",width=200)
+st.image("uchiha-itachi.jpg",width=200)
 
 st.subheader("where should we go to explore new animes ?")
 st.write("14 BEST FREE Anime Websites To Watch Anime Online [2023 LIST] 9Anime.to")
