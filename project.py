@@ -19,7 +19,7 @@ else:
 
 st.sidebar.text("some glips of this world")
 from PIL import Image
-img = Image.open("it2.jpg"),caption=("sasuke itachi")
+img = Image.open("it2.jpg")
 st.sidebar.image(img)
 from PIL import Image
 img = Image.open("it3.jpg")
