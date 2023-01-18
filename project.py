@@ -84,5 +84,5 @@ if st.button("See it!!"):
 text_input = st.text_input(
         "Say something about anime")
 
-if st.button("Thank you!!"):
+if st.button("submit"):
     st.snow()
