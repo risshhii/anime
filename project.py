@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd 
 import matplotlib.pyplot as plt 
 
-st.title("Anime") 
+st.title("#Anime") 
 st.image("it2.jpg",width=500)
 
 st.subheader("anime's world")
