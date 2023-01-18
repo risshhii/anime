@@ -1,17 +1,4 @@
-[11:44, 1/15/2023] Rishikesh Kumar: import streamlit as st 
-import pandas as pd 
-import matplotlib.pyplot as plt 
-
-st.title("Bengalies") 
-from PIL import Image
-img = Image.open("sindur.jpg")
-st.image(img)
-
-st.subheader("All about the bengali culture")
-st.write("*The sanctity of Hooghly, the beauty of Eastern Himalayas, the diversity of Sunderbans and the freshness of the Tea Gardens, all blend together to constitute what we call the unique culture of West Bengal. Bengali culture also has its root in Bengali music, Bengali cinema and Bengali literature.Bengalies are very simple people or rather should I say simple living, high thinking.Most of them are brilliant students growing up to become famous scholars.Bengali language has been voted as the sweetest language in the world by UNESCO.*")
-
-ben…
-[22:11, 1/16/2023] Rishikesh Kumar: import streamlit as st 
+import streamlit as st 
 import pandas as pd 
 import matplotlib.pyplot as plt 
 
