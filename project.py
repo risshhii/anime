@@ -1,8 +1,21 @@
-import streamlit as st 
+[11:44, 1/15/2023] Rishikesh Kumar: import streamlit as st 
 import pandas as pd 
 import matplotlib.pyplot as plt 
 
-st.title("ANIME") 
+st.title("Bengalies") 
+from PIL import Image
+img = Image.open("sindur.jpg")
+st.image(img)
+
+st.subheader("All about the bengali culture")
+st.write("*The sanctity of Hooghly, the beauty of Eastern Himalayas, the diversity of Sunderbans and the freshness of the Tea Gardens, all blend together to constitute what we call the unique culture of West Bengal. Bengali culture also has its root in Bengali music, Bengali cinema and Bengali literature.Bengalies are very simple people or rather should I say simple living, high thinking.Most of them are brilliant students growing up to become famous scholars.Bengali language has been voted as the sweetest language in the world by UNESCO.*")
+
+ben…
+[22:11, 1/16/2023] Rishikesh Kumar: import streamlit as st 
+import pandas as pd 
+import matplotlib.pyplot as plt 
+
+st.title("Anime") 
 st.image("it2.jpg",width=500)
 
 st.subheader("anime's world")
@@ -29,7 +42,7 @@ img = Image.open("it4.jpg")
 st.sidebar.image(img)
 
 st.subheader("All about itachi")
-st.write("*Itachi Uchiha (うちは イタチ, Uchiha Itachi) is a character in the Naruto manga and anime series created by Masashi Kishimoto. Itachi is the older brother of Sasuke Uchiha, and is responsible for killing all the members of their clan, sparing only Sasuke. He appears working as a terrorist from the organisation Akatsuki and serves as Sasuke's greatest enemy. During the second part of the manga, Itachi becomes involved in attacks to ninjas possessing tailed-beast creatures until facing Sasuke in a one-on-one battle. Although Itachi perishes during the final duel, it is later revealed that Itachi had a secret reason for assassinating the Uchiha clan. Itachi is a playable character in most of the video games from the serie*")
+st.write("Itachi Uchiha (うちは イタチ, Uchiha Itachi) is a character in the Naruto manga and anime series created by Masashi Kishimoto. Itachi is the older brother of Sasuke Uchiha, and is responsible for killing all the members of their clan, sparing only Sasuke. He appears working as a terrorist from the organisation Akatsuki and serves as Sasuke's greatest enemy. During the second part of the manga, Itachi becomes involved in attacks to ninjas possessing tailed-beast creatures until facing Sasuke in a one-on-one battle. Although Itachi perishes during the final duel, it is later revealed that Itachi had a secret reason for assassinating the Uchiha clan. Itachi is a playable character in most of the video games from the serie")
 
 
 tab1, tab2, tab3,tab4,tab5 = st.tabs(["naruto", "one piece","dragon ball z", "attack on titans","hunter x hunter"])
@@ -58,21 +71,21 @@ be = st.radio(
     ('Yeah of course', 'No not that much interested'))
 
 if be == 'Yeah really i want to watch anime':
-    st.write('wow great')
+    st.write('wow great!!')
 else:
-    st.write('okkk')
+    st.write('okayy')
 
 st.subheader("uchiha clan")
-st.write("*The Uchiha Clan (うちは一族, Uchiha Ichizoku) is one of the four noble clans of Konohagakure,[1] reputed to be the village's strongest because of their Sharingan and natural battle prowess.[2] After helping found Konoha decades ago, the Uchiha grew increasingly isolated from the village's affairs, culminating in most of their deaths during the Uchiha Clan Downfall. Few Uchiha now survive into the present day.*")
+st.write("The Uchiha Clan (うちは一族, Uchiha Ichizoku) is one of the four noble clans of Konohagakure,[1] reputed to be the village's strongest because of their Sharingan and natural battle prowess.[2] After helping found Konoha decades ago, the Uchiha grew increasingly isolated from the village's affairs, culminating in most of their deaths during the Uchiha Clan Downfall. Few Uchiha now survive into the present day.")
 
-st.write("*uchiha caln is know for its extraordinary genjutsu powers .*")
+st.write("uchiha caln is know for its extraordinary genjutsu powers .")
 st.image("uchiha.jpeg",width=600)
 op = st.selectbox('So do you wanna be a part of this ?',
     ('Yeah !!', 'No...', 'never!'))
 
 
 st.subheader("Why billions of people love anime?")
-st.write("*There's a reason why people love Itachi — the man built up to be this imposing villain throughout Naruto is revealed to be a pragmatic individual who culled his clan for the greater good and always loved his brother, no matter what.*")
+st.write("There's a reason why people love Itachi — the man built up to be this imposing villain throughout Naruto is revealed to be a pragmatic individual who culled his clan for the greater good and always loved his brother, no matter what.")
 if st.button("See it!"):
     st.image("uchiha-itachi.jpg",width=200)
 
