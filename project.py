@@ -17,9 +17,10 @@ if ben == 'Yeah':
 else:
     st.write('your loss')
 
-st.sidebar.text("some views of greatness")
+st.sidebar.text("some glips of this world")
 from PIL import Image
 img = Image.open("it2.jpg")
+st.sidebar.image(Image.open("it2.JPG"),caption="sasuke itachi")
 st.sidebar.image(img)
 from PIL import Image
 img = Image.open("it3.jpg")
