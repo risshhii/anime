@@ -17,7 +17,7 @@ if ben == 'Yeah':
 else:
     st.write('your loss')
 
-st.sidebar.text("some glips of this world")
+st.sidebar.text("some glimpse of this world")
 from PIL import Image
 img = Image.open("it2.jpg")
 st.sidebar.image(img)
